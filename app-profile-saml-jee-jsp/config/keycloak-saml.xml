@@ -1,7 +1,7 @@
 <keycloak-saml-adapter>
     <SP entityID="app-profile-saml"
         sslPolicy="EXTERNAL"
-        logoutPage="SPECIFY YOUR LOGOUT PAGE!">
+        logoutPage="/index.jsp">
         <Keys>
             <Key signing="true">
                 <PrivateKeyPem>
