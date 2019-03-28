@@ -36,7 +36,7 @@ public class ServiceLocator {
 			
 			try {
 				/** serviceUrl = new URL("http://" + host + ":8080/service"); */
-				serviceUrl = new URL("http://" + host + "/service");
+				serviceUrl = new URL("https://" + host + "/service");
 				return serviceUrl;
 			} catch (MalformedURLException e){
 				throw new RuntimeException("Malformed URL: " + host);
