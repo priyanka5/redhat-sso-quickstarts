@@ -1,0 +1,33 @@
+<keycloak-saml-adapter>
+    <SP entityID="app-profile-saml"
+        sslPolicy="EXTERNAL"
+        logoutPage="SPECIFY YOUR LOGOUT PAGE!">
+        <Keys>
+            <Key signing="true">
+                <PrivateKeyPem>
+                    MIIEowIBAAKCAQEAw+UY06AFPNBO1oJu4EyGHiNE+9O9Dv6DmnvCrjUF59++SA2bgFJjMj30QPE7qXAo7FimRQKdZHxJ8VI0wXxKT0z+R4GHq7B07KbWCAuaPBSnJa8EDGfCNR0sxqHUrk0VkLJ/PfKmedACEXry7aLNX3KxS0765V33/xzEqqrCV/4/1CkQ+cw6Wj7mpWWbncOUb/DGAUzav9KeGtgmuGBT38HAzVhYELydzplcDLCsQYSgp8o3dtuPZ46V+i0eViRdG8FK/89WG1rnUGTZZHCk0CvBt+VCgeUk5D0ockXyzIhxBUPNkY+vZ3+QL4Qk2Ld7En0MzQ2K/c3NCYHiPYbClQIDAQABAoIBAQCyw7g6NwdQjc/EFVdVPMAPdKQZIwqeSkiSi2oHS7/N7/JXEoPbQFPhn4PsV7fYUdAmjmd9BnvXHUzk+d3Gy8OMRnitjFjgprCs3TroMJ5ZQYee7e3F3FHv4mXgBgJt5U5Os3VGdM7Szq10gjx5+11rQuDkFnkDIxOTLQ+Tpyye2n8vdINAzF7LmqST8a/z4n8H6N+znqRr7fRVc4rOXf8+dG4VXJEwJGmBYPb0RI2MH1u71+d68DPEXyd3JWfqTL0zBE09AWJDQKReSczr7If9zf4uKA68BhBvYMZuHTI3RjP+6qmDzQQvGrSEPnwepQqLN87DgTxPSXBL+JWJQbmpAoGBAOf69AtYSiwnClEJ/S0g6FlrinQHVxYdPAKTkILARmZNXCDZUi0f9dJzaMOTNJW+OkBq3auDhtTSS/ptR+ZXv4cheZ+TG5oLZ0SvFWMh88py2V8d+NPFRkdk6lKp/0HGBzkC5UULotsiElBWx0oKd4VaCGephoQxAlmFxNi8FbE7AoGBANgtoxrkDe1TahKlj2baZpDQXcLIY+n3nVxtgM9Sj+RS8+OyicG4/qOtQyMoXwhbzaJOhunIv/YJbeAslrxBDBGfj5+1IliW05wyYnZUUpifgdAwrpexPVPfdWWPjW4ELtSplremSJGu4KUaLH9RXYh2uQE9uWIcCVuSbOQabh5vAoGAZ/QVGGBgHJkCDn6jbW2psSh3yrbfV5GSKrVltLHk2kMgXbgFEyOXTM9aywlULyYnhGZfH1S5PvVeBsKhzZ7UvQFLNy7813L0u9qZgurcDISa0/ziXEOy0ptuRczYDelnoyyhAOfN+tSx0D6S36MBHEjUK1/UX7h2jRdctqLSNbECgYB0dZGK6RT/p5JbXUm11S6wETCRwLbi0ny50Fw2VHokPPQa1JIWBP1ZW/vxMsyPijVrnPZdd8LCXy4MOLkzza8cx2LuXPyV0RtK6HHW4XJluniKmc9U9SzexGFQR1efzy0TcBE7+p7ZrOZky4bxR/oljB/6pS/7xLLd3DJBaGOujQKBgGJF/BcX5G/uIALt1zaf0kYttbuEkzU0cuS9vLDF/NpnSIrbHjSgqqsbbxhCH8zUGM6gkgQiSrQoMW4kVVVlfX/y3qMt9eZh+c4kehlvj2I4JwEv3E03XHqdmnHDoEktfgX7J/XQd2ArnCW+4wXc78WDDk+SMNh8O1PWKMssUnQp
+                </PrivateKeyPem>
+                <CertificatePem>
+                    MIICrzCCAZcCBgFpwt9TYDANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBhcHAtcHJvZmlsZS1zYW1sMB4XDTE5MDMyODA1NTUwOVoXDTI5MDMyODA1NTY0OVowGzEZMBcGA1UEAwwQYXBwLXByb2ZpbGUtc2FtbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMPlGNOgBTzQTtaCbuBMhh4jRPvTvQ7+g5p7wq41BeffvkgNm4BSYzI99EDxO6lwKOxYpkUCnWR8SfFSNMF8Sk9M/keBh6uwdOym1ggLmjwUpyWvBAxnwjUdLMah1K5NFZCyfz3ypnnQAhF68u2izV9ysUtO+uVd9/8cxKqqwlf+P9QpEPnMOlo+5qVlm53DlG/wxgFM2r/SnhrYJrhgU9/BwM1YWBC8nc6ZXAywrEGEoKfKN3bbj2eOlfotHlYkXRvBSv/PVhta51Bk2WRwpNArwbflQoHlJOQ9KHJF8syIcQVDzZGPr2d/kC+EJNi3exJ9DM0Niv3NzQmB4j2GwpUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAJ/F0iHf+enAVx4qxKSyr0aswB2Ej7+jWIMNZfCjx4bjiuMBvPzCC+gRr4k4MugvGKTS8nZixjWvmxtVTKo2uGrBY0j+0NShD0ORNYvs9LpRVHa2ig699UP2XQmW8DCKibkilUtu4z4sHj+vYHbYgUnIbyRq6Lthkn0oIhKKu4QXu7Ao6NG7+S4I9Aw3k4fPamVpi9kGP5SONcwEu6oid2DuEzL6TOVS/TggSV16EbU0denFGGlybwVrloSEj5rtABweCIhACJ7RoQBRfhy3gEZHipc6Bi2OLqdUMRxYPupfL0K0uwThRAkxKCVVEG8rIht2eci7p0YBtmHiYFMH9CA==
+                </CertificatePem>
+            </Key>
+        </Keys>
+        <IDP entityID="idp"
+             signatureAlgorithm="RSA_SHA256"
+             signatureCanonicalizationMethod="http://www.w3.org/2001/10/xml-exc-c14n#">
+            <SingleSignOnService signRequest="true"
+                                 validateResponseSignature="true"
+                                 validateAssertionSignature="false"
+                                 requestBinding="POST"
+                                 bindingUrl="https://sso-single-sign-on.lab.ocp.azure.rai.it/auth/realms/demo/protocol/saml"/>
+            <SingleLogoutService signRequest="true"
+                                 signResponse="true"
+                                 validateRequestSignature="true"
+                                 validateResponseSignature="true"
+                                 requestBinding="POST"
+                                 responseBinding="POST"
+                                 postBindingUrl="https://sso-single-sign-on.lab.ocp.azure.rai.it/auth/realms/demo/protocol/saml"
+                                 redirectBindingUrl="https://sso-single-sign-on.lab.ocp.azure.rai.it/auth/realms/demo/protocol/saml"/>
+        </IDP>
+    </SP>
+</keycloak-saml-adapter>
