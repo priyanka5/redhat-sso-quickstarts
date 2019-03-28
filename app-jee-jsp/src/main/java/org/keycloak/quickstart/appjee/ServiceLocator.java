@@ -11,10 +11,10 @@ public class ServiceLocator {
 	
 	private static final String SERVICE_URI_INIT_PARAM_NAME = "serviceUrl";
 	
-	serviceUrl = "http://localhost:8080/service" ;
-	System.out.println("Using Service URL " + serviceUrl);
+	
+	
 
-	/** public static URL getServiceUrl(HttpServletRequest req) {
+	 public static URL getServiceUrl(HttpServletRequest req) {
 		URL serviceUrl = null;
 		
 		try {
@@ -39,13 +39,13 @@ public class ServiceLocator {
 			
 			try {
 				/** serviceUrl = new URL("http://" + host + ":8080/service"); */
-				serviceUrl = new URL("https://" + host + "/service");
+				serviceUrl = new URL("http://" + localhost + ":8080/service");
 				return serviceUrl;
 			} catch (MalformedURLException e){
 				throw new RuntimeException("Malformed URL: " + host);
 			}
 		} finally {
 			System.out.println("Using Service URL " + serviceUrl);
-		} */
+		} 
 	}
 }
