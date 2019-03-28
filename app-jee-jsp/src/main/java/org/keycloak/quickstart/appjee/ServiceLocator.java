@@ -10,8 +10,11 @@ import java.net.URL;
 public class ServiceLocator {
 	
 	private static final String SERVICE_URI_INIT_PARAM_NAME = "serviceUrl";
+	
+	serviceUrl = "http://localhost:8080/service" ;
+	System.out.println("Using Service URL " + serviceUrl);
 
-	public static URL getServiceUrl(HttpServletRequest req) {
+	/** public static URL getServiceUrl(HttpServletRequest req) {
 		URL serviceUrl = null;
 		
 		try {
@@ -43,6 +46,6 @@ public class ServiceLocator {
 			}
 		} finally {
 			System.out.println("Using Service URL " + serviceUrl);
-		}
+		} */
 	}
 }
